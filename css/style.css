@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;  
+}
+
+.navbar{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #08adff;
+    color: #fffbdf;
+}
+
+.logo{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.title-logo{
+    font-size: 2.5rem;
+    color: #045CB4;
+    position: absolute;
+    left: 12rem;
+    top: 4rem;
+}
+
+.text-logo{
+    font-size: 1rem;
+    position: absolute;
+    left: 15rem;
+    top: 7rem;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.menu li{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    margin-left: 1.3rem;
+}
+
+.menu li a{
+    color: #045CB4;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #045CB4;
+    text-decoration: underline;
+}
+
+.img-content{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.img-content img{
+    width: 40%;
+    height: auto;
+    border-radius: 10%;
+
+}
+
+.sec_principal{
+    width: 50%;
+    padding: 5%;
+    
+}
+
+.sec_principal h2{
+    color: #045CB4;
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+}
+
+.sec_principal ul{
+    list-style: inside;
+    padding: auto;
+    margin-left: 2rem;
+}
+
+.sec_principal ul li{
+    margin: 0 0 1rem 0;
+}
+
+.sec_principal ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.somos{
+    position: relative;
+    width: 45%;
+    left: 50%;
+    top: -17.5rem;
+}
+
+.somos h2{
+    color: #045CB4;
+    font-size: 1.3rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.sec_secundaria{
+    width: 100%;
+    height: ;
+}
+
+@media (min-width: 1200px){
+    .title-logo{
+        font-size: 1.5rem;
+    }
+}
