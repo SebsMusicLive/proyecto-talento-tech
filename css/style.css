@@ -9,7 +9,8 @@ body{
 }
 
 .navbar{
-    padding: 3%;
+    border: 14px solid #045CB4;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     background-color: #08adff;
@@ -116,7 +117,6 @@ body{
 
 .sec_secundaria{
     width: 100%;
-    height: ;
 }
 
 @media (min-width: 1200px){
